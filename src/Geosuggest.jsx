@@ -126,6 +126,13 @@ class Geosuggest extends React.Component {
     this.setState({userInput: ''}, () => this.hideSuggests());
   }
 
+  /*
+   * Clear the suggestions and close the suggestion pane
+   */
+  clearSuggests() {
+    this.setState({suggests: []}, () => this.hideSuggests());
+  }
+
   /**
    * Search for new suggests
    */
