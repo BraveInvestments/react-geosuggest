@@ -1,5 +1,5 @@
 {
-  "name": "react-geosuggest",
+  "name": "react-geosuggest-autoclose",
   "version": "1.22.0",
   "description": "A React autosuggest for the Google Maps Places API.",
   "main": "module/Geosuggest.js",
